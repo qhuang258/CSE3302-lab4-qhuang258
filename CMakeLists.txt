@@ -1,8 +1,14 @@
 # author: d.horn
+cmake_minimum_required(VERSION 3.16)
+project(lab3_qhuang258)
 
-cmake_minimum_required(VERSION 3.20)
-project(CSE332Lab)
+# 启用 C++17
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-set(CMAKE_CXX_STANDARD 14)
-
-add_subdirectory(src)
+add_executable(lab3-qhuang258
+        src/Main.cpp
+        src/TicTacToeGame.cpp
+        src/TicTacToeGame.h
+)
