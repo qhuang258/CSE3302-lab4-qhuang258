@@ -11,4 +11,8 @@ add_executable(lab3-qhuang258
         src/Main.cpp
         src/TicTacToeGame.cpp
         src/TicTacToeGame.h
+        src/gamebase.h
+        src/GameBase.cpp
+        src/GomokuGame.h
+        src/GomokuGame.cpp
 )
