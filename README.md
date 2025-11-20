@@ -206,3 +206,4 @@ The current design doesn’t include AI or strategic play (not required for this
 I completed this assignment independently.
 I did not share code with other students.
 Any discussions with classmates were limited to conceptual understanding and did not involve sharing code or solutions.
+1
